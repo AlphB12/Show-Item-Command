@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "showitem",
+	"version": "${version}",
+	"name": "ShowItem",
+	"description": "Use /showitem to display the item in your main hand.",
+	"authors": [
+		"AlphB"
+	],
+	"contact": {
+		"homepage": "https://github.com/AlphB12/Show-Item-Command",
+		"sources": "https://github.com/AlphB12/Show-Item-Command"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/showitem/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.alphb.ShowItem"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
